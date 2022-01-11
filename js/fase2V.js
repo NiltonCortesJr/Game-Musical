@@ -1,7 +1,7 @@
-function botaoResponder(){
+function botaoResponder() {
   var escolha = "";
   while (escolha != 1 && escolha != 2) {
-    escolha = prompt("Qual é sua escolha? \n 1 - Treinar várias musicas. \n 2 - Não treinar.");
+    escolha = prompt("Qual é sua escolha? \n 1 - Dedicar mais tempo. \n 2 - Contar com a sorte.");
     if (escolha == 1) {
       window.location.href = "../html/fase3Vocalista1.html";
     }
@@ -12,6 +12,6 @@ function botaoResponder(){
 
     else {
       alert('Escolha errada');
-    } 
+    }
   }
 }

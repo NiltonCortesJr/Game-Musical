@@ -1,9 +1,11 @@
+/* Reset CSS */
 * {
     margin: 0 auto;
     border: 0 auto;
     padding: 0 auto;
     }
 
+/* Estilizando o corpo da página */
 body {
     width: 85%;
     padding: 20px 20px 20px 20px;
@@ -12,6 +14,7 @@ body {
     background-color: rgb(70, 75, 70);
 }
 
+/* Estilizando o Título */
 .titulo {
     display: flex;
     flex-direction: column;
@@ -30,6 +33,7 @@ body {
     font-weight: bold;
 }
 
+/* Estilizando o Texto */
 .texto {
     display: flex;
     flex-direction: row;
@@ -48,19 +52,21 @@ body {
     text-align: center;
 }
 
+/* Estilizando o Id maior */
 #maior {
     font-size: 50px;
 }
 
-
+/* Estilizando as imagens */
 img {
-    width: 150px;
+    width: 140px;
     height: 140px;
     border-radius: 40px;
     padding: 20px 20px;
     background-size: cover;
 }
 
+/* Estilizando a div de escolha geral */
 .escolhaGeral {
     display: flex;
     justify-content: center;
@@ -74,6 +80,7 @@ img {
     
 }
 
+/* Estilizando a div de escolha */
 .escolha {
     display: flex;
     justify-content: space-between;
@@ -84,6 +91,7 @@ img {
     text-shadow: whitesmoke 1px 1px 1px;
 }
 
+/* Estilizando o Título h3 */
 h3 {
     color: white;
     text-align: center;
@@ -92,11 +100,13 @@ h3 {
     padding-top: 25px;
 }
 
+/* Estilizando o hover */
 .botao a:hover {
     color: white;
     font-weight: bold;
 }
 
+/* Estilizando a classe botão */
 .botao {
     cursor: pointer;
     display: inline-flex;
